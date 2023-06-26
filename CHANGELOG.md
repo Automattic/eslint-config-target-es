@@ -5,12 +5,9 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [2.0.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [2.0.0] - 2023-06-26
 ### Changed
-- As `eslint-plugin-es` appears to be abandoned, change to using `eslint-plugin-es-x`.
+- As `eslint-plugin-es` appears to be abandoned, change to using `eslint-plugin-es-x`. [#31556]
 - Updated package dependencies.
 
 ## [1.0.6] - 2023-04-07
@@ -44,7 +41,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Initial release.
 
-[2.0.0-alpha]: https://github.com/Automattic/eslint-config-target-es/compare/1.0.6...2.0.0-alpha
+[2.0.0]: https://github.com/Automattic/eslint-config-target-es/compare/1.0.6...2.0.0
 [1.0.6]: https://github.com/Automattic/eslint-config-target-es/compare/1.0.5...1.0.6
 [1.0.5]: https://github.com/Automattic/eslint-config-target-es/compare/1.0.4...1.0.5
 [1.0.4]: https://github.com/Automattic/eslint-config-target-es/compare/1.0.3...1.0.4
