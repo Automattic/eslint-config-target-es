@@ -5,6 +5,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.1.0-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Added
+- All versions indicated by browserslist are now checked, not just the lowest. Added `getAllBrowsers` function to support this.
+- Support for more complex MDN data:
+  * Multiple support statements are now all checked. Previously only the first (most recent) was, which may have missed cases where support was backported.
+  * `version_removed` is now checked.
+  * Ranged versions (≤) are now handled.
+  * `prefix`, `alternative_name`, and `flags` now indicate (possible) lack of support.
+
+### Deprecated
+- Deprecated `getBrowsers` function in favor of the new `getAllBrowsers`.
+
 ## [2.0.0] - 2023-06-26
 ### Changed
 - As `eslint-plugin-es` appears to be abandoned, change to using `eslint-plugin-es-x`. [#31556]
@@ -41,6 +56,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release.
 
+[2.1.0-alpha]: https://github.com/Automattic/eslint-config-target-es/compare/2.0.0...2.1.0-alpha
 [2.0.0]: https://github.com/Automattic/eslint-config-target-es/compare/1.0.6...2.0.0
 [1.0.6]: https://github.com/Automattic/eslint-config-target-es/compare/1.0.5...1.0.6
 [1.0.5]: https://github.com/Automattic/eslint-config-target-es/compare/1.0.4...1.0.5
