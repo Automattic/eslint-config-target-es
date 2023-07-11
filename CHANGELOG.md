@@ -20,6 +20,9 @@ This is an alpha version! The changes listed here are not final.
 ### Deprecated
 - Deprecated `getBrowsers` function in favor of the new `getAllBrowsers`.
 
+### Fixed
+- Apparently MDN data considers "preview" a version, but didn't think that worth documenting. Handle it.
+
 ## [2.0.0] - 2023-06-26
 ### Changed
 - As `eslint-plugin-es` appears to be abandoned, change to using `eslint-plugin-es-x`. [#31556]
