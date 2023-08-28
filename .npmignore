@@ -1,3 +1,4 @@
 # Automatically generated ignore rules.
+/.gitattributes
 /.github/
 /composer.json
