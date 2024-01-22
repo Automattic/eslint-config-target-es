@@ -17,6 +17,9 @@ This is an alpha version! The changes listed here are not final.
   * Ranged versions (≤) are now handled.
   * `prefix`, `alternative_name`, and `flags` now indicate (possible) lack of support.
 
+### Changed
+- Updated package dependencies.
+
 ### Deprecated
 - Deprecated `getBrowsers` function in favor of the new `getAllBrowsers`.
 
