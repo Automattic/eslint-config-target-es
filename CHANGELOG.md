@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.1.1-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Changed
+- Updated package dependencies.
+
 ## [2.1.0] - 2024-02-07
 ### Added
 - All versions indicated by browserslist are now checked, not just the lowest. Added `getAllBrowsers` function to support this. [#31658]
@@ -59,6 +66,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release.
 
+[2.1.1-alpha]: https://github.com/Automattic/eslint-config-target-es/compare/2.1.0...2.1.1-alpha
 [2.1.0]: https://github.com/Automattic/eslint-config-target-es/compare/2.0.0...2.1.0
 [2.0.0]: https://github.com/Automattic/eslint-config-target-es/compare/1.0.6...2.0.0
 [1.0.6]: https://github.com/Automattic/eslint-config-target-es/compare/1.0.5...1.0.6
