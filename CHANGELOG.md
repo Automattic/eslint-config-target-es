@@ -5,9 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [2.1.1-alpha] - unreleased
+## [2.2.0-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
+
+### Added
+- Updated `eslint-plugin-es-x` adds additional rules: `es-x/no-arraybuffer-prototype-transfer`, `es-x/no-object-map-groupby`, `es-x/no-promise-withresolvers`, `es-x/no-resizable-and-growable-arraybuffers`, `es-x/no-set-prototype-difference`, `es-x/no-set-prototype-intersection`, `es-x/no-set-prototype-isdisjointfrom`, `es-x/no-set-prototype-issubsetof`, `es-x/no-set-prototype-issupersetof`, `es-x/no-set-prototype-symmetricdifference`, and `es-x/no-set-prototype-union`.
 
 ### Changed
 - Updated package dependencies.
@@ -66,7 +69,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Initial release.
 
-[2.1.1-alpha]: https://github.com/Automattic/eslint-config-target-es/compare/2.1.0...2.1.1-alpha
+[2.2.0-alpha]: https://github.com/Automattic/eslint-config-target-es/compare/2.1.0...2.2.0-alpha
 [2.1.0]: https://github.com/Automattic/eslint-config-target-es/compare/2.0.0...2.1.0
 [2.0.0]: https://github.com/Automattic/eslint-config-target-es/compare/1.0.6...2.0.0
 [1.0.6]: https://github.com/Automattic/eslint-config-target-es/compare/1.0.5...1.0.6
