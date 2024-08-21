@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Add mapping for `es-x/no-regexp-duplicate-named-capturing-groups`.
 - Support eslint flat configs (`eslint.config.js`).
 - Updated `eslint-plugin-es-x` adds additional rules: `es-x/no-arraybuffer-prototype-transfer`, `es-x/no-object-map-groupby`, `es-x/no-promise-withresolvers`, `es-x/no-resizable-and-growable-arraybuffers`, `es-x/no-set-prototype-difference`, `es-x/no-set-prototype-intersection`, `es-x/no-set-prototype-isdisjointfrom`, `es-x/no-set-prototype-issubsetof`, `es-x/no-set-prototype-issupersetof`, `es-x/no-set-prototype-symmetricdifference`, and `es-x/no-set-prototype-union`.
 
