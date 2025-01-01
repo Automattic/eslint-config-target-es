@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Updated package dependencies.
 
+### Fixed
+- Tests: Adjust test to account for iOS Safari version ranges.
+
 ## [2.2.1] - 2024-12-04
 ### Added
 - Enable test coverage. [#39961]
