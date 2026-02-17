@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Enable new rules from `eslint-plugin-es-x`.
 
 ### Changed
+- Set `.repository.url` in `package.json` to the mirror repo rather than the monorepo. Required for enabling provenance.
 - Update package dependencies.
 
 ## [5.0.0] - 2026-01-12
