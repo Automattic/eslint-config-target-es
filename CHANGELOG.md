@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
+- Relicense under the MIT license.
 - Update package dependencies.
 
 ## [6.0.0] - 2026-04-13
