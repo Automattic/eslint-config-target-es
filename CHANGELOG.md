@@ -5,17 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [7.0.0-alpha] - unreleased
+## [7.0.0] - 2026-09-17
 
-This is an alpha version! The changes listed here are not final.
+As of version 7.0.0, this package is now under the MIT license.
+Previous versions were licensed GPL v2.0-or-later.
 
 ### Added
-- Enable new rules from `eslint-plugin-es-x`.
+- Enable new rules from `eslint-plugin-es-x`. [#49070] [#50333]
 
 ### Changed
-- Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
-- Relicense under the MIT license.
-- Update package dependencies.
+- Relicense under the MIT license. [#52441]
+- Update package dependencies. [#48106] [#48405] [#49012] [#49070] [#49273] [#49320] [#49322] [#49352] [#49691] [#49765] [#50097] [#50183] [#50333] [#50529] [#51330] [#51701] [#51839] [#52163] [#52187] [#52297]
 
 ## [6.0.0] - 2026-04-13
 ### Added
@@ -130,7 +130,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Initial release.
 
-[7.0.0-alpha]: https://github.com/Automattic/eslint-config-target-es/compare/6.0.0...7.0.0-alpha
+[7.0.0]: https://github.com/Automattic/eslint-config-target-es/compare/6.0.0...7.0.0
 [6.0.0]: https://github.com/Automattic/eslint-config-target-es/compare/5.0.0...6.0.0
 [5.0.0]: https://github.com/Automattic/eslint-config-target-es/compare/4.0.1...5.0.0
 [4.0.1]: https://github.com/Automattic/eslint-config-target-es/compare/4.0.0...4.0.1
