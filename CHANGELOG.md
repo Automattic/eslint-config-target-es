@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Update package dependencies.
 
+### Fixed
+- Name correct license in README.md.
+
 ## [7.0.0] - 2026-09-17
 
 As of version 7.0.0, this package is now under the MIT license.
